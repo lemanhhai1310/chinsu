@@ -40,19 +40,20 @@
      theme_color="#24892d">
 </div>
 <section id="app" class="uk-height-viewport uk-offcanvas-content">
-    <div id="cs-block1" class="uk-section-small uk-position-relative" data-src="imgs/bg1.png" uk-img>
-        <div>
+    <div id="cs-block1" class="uk-section-xsmall uk-position-relative" data-src="imgs/bg1.png" uk-img>
+        <div class="uk-container">
             <div class="uk-flex-bottom" uk-grid>
                 <div class="uk-width-expand@s">
-                    <div class="uk-padding">
-                        <p>Tương ớt Chinsu siêu cay mới được xay nhuyễn từ những trái ớt đỏ chín cây và ủ lên men tự nhiên cùng với tỏi thơm</p>
+                    <h2 class="cs-title1">tương ớt chinsu siêu cay</h2>
+                    <div class="uk-padding-small">
+                        <p class="cs-desc1">Tương ớt Chinsu siêu cay mới được xay nhuyễn từ những trái ớt đỏ chín cây và ủ lên men tự nhiên cùng với tỏi thơm</p>
                     </div>
                     <div class="uk-flex-middle" uk-grid>
                         <div class="uk-width-auto">
-                            <img class="cs-img2" src="imgs/img1.png" alt="">
+                            <img uk-scrollspy="cls: uk-animation-slide-left; repeat: true" class="cs-img2" src="imgs/img1.png" alt="">
                         </div>
                         <div class="uk-width-expand">
-                            <ul class="uk-list cs-list1">
+                            <ul class="uk-list cs-list1" uk-scrollspy="cls: uk-animation-slide-right; target: li; delay: 500; repeat: true">
                                 <li>Dậy vị thanh chua của ớt tỏi <br> lên men;</li>
                                 <li>Bùng vị cay hít hà kích thích <br> <span>vị giác;</span></li>
                                 <li>Lan toả, hoà quyện.</li>
@@ -67,7 +68,7 @@
         </div>
     </div>
     <div id="cs-news" class="uk-section-small uk-text-center" data-src="imgs/bg_news.png" uk-img>
-        <div class="uk-container">
+        <div class="uk-container uk-container-small">
             <h2 class="uk-text-uppercase cs-title">tin tức về tương ớt chinsu</h2>
             <div uk-slider>
 
