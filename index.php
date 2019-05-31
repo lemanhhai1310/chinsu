@@ -128,7 +128,7 @@
                     </div>
                 </div>
                 <div class="uk-width-auto@s">
-                    <img class="cs-img1" src="imgs/img2.png" alt="">
+                    <img class="cs-img1" src="imgs/img3.png" alt="">
                 </div>
             </div>
         </div>
