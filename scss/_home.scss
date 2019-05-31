@@ -37,8 +37,32 @@
   margin: 0;
 }
 .cs-title1{
-  color: #f16321;
   text-transform: uppercase;
   font-family:'Averta-ExtraBoldItalic';
-  margin: 0;
+  #cs-block1 &{
+    margin: 0;
+    color: #f16321;
+  }
+  #cs-block2 &{
+    color: #ffffff;
+  }
+}
+$radius1: 50%;
+.cs-box2{
+  .uk-cover-container{
+    img{
+      width: 295px !important;
+      height: 190px !important;
+      border-radius: 0 0 $radius1 $radius1;
+    }
+  }
+  .title{
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+    a{
+      color: #cb292e;
+      text-decoration: none;
+    }
+  }
 }
