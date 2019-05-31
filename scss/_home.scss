@@ -5,4 +5,28 @@
 .cs-img2{
   max-width: 350px;
   width: 100%;
+  margin-bottom: -80px !important;
+}
+.cs-list1{
+  li{
+    font-family:'Averta-ExtraBoldItalic';
+    color: #f16321;
+    font-size: 20px;
+    &:nth-child(n+2){
+      margin-top: 50px;
+    }
+    &:nth-child(1){
+      margin-left: -190px;
+    }
+    &:nth-child(2){
+      margin-left: -100px;
+      span{
+        padding-left: 20px;
+        display: block;
+      }
+    }
+    &:nth-child(3){
+      margin-left: -50px;
+    }
+  }
 }

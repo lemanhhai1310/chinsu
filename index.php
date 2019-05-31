@@ -41,10 +41,24 @@
 </div>
 <section id="app" class="uk-height-viewport uk-offcanvas-content">
     <div id="cs-block1" class="uk-section-small uk-position-relative" data-src="imgs/bg1.png" uk-img>
-        <div class="uk-container">
+        <div>
             <div class="uk-flex-bottom" uk-grid>
                 <div class="uk-width-expand@s">
-                    <img class="cs-img2" src="imgs/img1.png" alt="">
+                    <div class="uk-padding">
+                        <p>Tương ớt Chinsu siêu cay mới được xay nhuyễn từ những trái ớt đỏ chín cây và ủ lên men tự nhiên cùng với tỏi thơm</p>
+                    </div>
+                    <div class="uk-flex-middle" uk-grid>
+                        <div class="uk-width-auto">
+                            <img class="cs-img2" src="imgs/img1.png" alt="">
+                        </div>
+                        <div class="uk-width-expand">
+                            <ul class="uk-list cs-list1">
+                                <li>Dậy vị thanh chua của ớt tỏi <br> lên men;</li>
+                                <li>Bùng vị cay hít hà kích thích <br> <span>vị giác;</span></li>
+                                <li>Lan toả, hoà quyện.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="uk-width-auto@s">
                     <img class="cs-img1" src="imgs/img2.png" alt="">
