@@ -40,6 +40,18 @@
      theme_color="#24892d">
 </div>
 <section id="app" class="uk-height-viewport uk-offcanvas-content">
+    <div id="cs-block1" class="uk-section-small uk-position-relative" data-src="imgs/bg1.png" uk-img>
+        <div class="uk-container">
+            <div class="uk-flex-bottom" uk-grid>
+                <div class="uk-width-expand@s">
+                    <img class="cs-img2" src="imgs/img1.png" alt="">
+                </div>
+                <div class="uk-width-auto@s">
+                    <img class="cs-img1" src="imgs/img2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="cs-news" class="uk-section-small uk-text-center" data-src="imgs/bg_news.png" uk-img>
         <div class="uk-container">
             <h2 class="uk-text-uppercase cs-title">tin tức về tương ớt chinsu</h2>
@@ -95,7 +107,7 @@
 
                 </div>
 
-                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin" hidden></ul>
+                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-hidden@s"></ul>
 
             </div>
         </div>
