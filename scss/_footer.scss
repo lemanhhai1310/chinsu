@@ -1,0 +1,35 @@
+#cs-footer{
+  &:before,&:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    background-size: 100%;
+    @media(max-width: 660px){
+      opacity: 0;
+    }
+  }
+  &:before{
+    left: 0;
+    background-image: url("../imgs/bg1_f.png");
+    width: 169.8px;
+    height: 135px;
+  }
+  background-color: #a62d2a;
+  figure{
+    img{
+      max-width: 190px;
+      width: 100%;
+    }
+    figcaption{
+      color: #ffffff;
+      font-size: 13px;
+    }
+  }
+  &:after{
+    right: 0;
+    background-image: url("../imgs/bg2_f.png");
+    width: 187.2px;
+    height: 102.6px;
+  }
+}

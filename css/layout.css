@@ -1,2 +1,2 @@
-
+body{font-size:14px}#cs-footer{background-color:#a62d2a}#cs-footer:after,#cs-footer:before{content:'';position:absolute;bottom:0;display:inline-block;background-size:100%}@media (max-width:660px){#cs-footer:after,#cs-footer:before{opacity:0}}#cs-footer:before{left:0;background-image:url("../imgs/bg1_f.png");width:169.8px;height:135px}#cs-footer figure img{max-width:190px;width:100%}#cs-footer figure figcaption{color:#ffffff;font-size:13px}#cs-footer:after{right:0;background-image:url("../imgs/bg2_f.png");width:187.2px;height:102.6px}@font-face{font-family:'Averta-Regular';src:url("../fonts/averta/AvertaDemoPECuttedDemo-Regular.otf") format("truetype");font-weight:normal;font-style:normal}
 /*# sourceMappingURL=layout.css.map */
