@@ -52,7 +52,7 @@
 }
 .cs-title1{
   text-transform: uppercase;
-  font-family:'Averta-ExtraBoldItalic';
+  font-family:'Averta-Bold';
   #cs-block1 &{
     margin: 0;
     color: #f16321;
@@ -74,7 +74,7 @@ $radius1: 50%;
     }
   }
   .title{
-    font-weight: bold;
+    font-family:'Averta-Bold';
     font-size: 14px;
     margin: 0;
     a{

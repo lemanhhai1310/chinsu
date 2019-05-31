@@ -52,14 +52,14 @@
                         <p class="cs-desc1">Tương ớt Chinsu được sản xuất từ những trái ớt tươi ngon nhất, xay nhuyễn cũng với tỏi tươi và công thức lên men đặc biệt cho hương vị tuyệt hảo</p>
                     </div>
                     <div class="uk-flex-middle" uk-grid>
-                        <div class="uk-width-expand">
+                        <div class="uk-width-expand@s">
                             <ul class="uk-list cs-list2" uk-scrollspy="cls: uk-animation-slide-bottom; target: li; delay: 500; repeat: true">
                                 <li>Thơm nồng vị ớt và tỏi tươi ngon;</li>
                                 <li>Hít hà vị cay tuyệt hảo;</li>
                                 <li>Hoà quyện và bùng cay.</li>
                             </ul>
                         </div>
-                        <div class="uk-width-auto">
+                        <div class="uk-width-auto@s">
                             <img uk-scrollspy="cls: uk-animation-slide-right; repeat: true" class="cs-img2" src="imgs/img4.png" alt="">
                         </div>
                     </div>
