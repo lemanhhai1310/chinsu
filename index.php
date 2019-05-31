@@ -40,6 +40,33 @@
      theme_color="#24892d">
 </div>
 <section id="app" class="uk-height-viewport uk-offcanvas-content">
+    <div id="cs-block3" class="uk-section-xsmall uk-position-relative" data-src="imgs/bg1.png" uk-img>
+        <div class="uk-container">
+            <div class="" uk-grid>
+                <div class="uk-width-auto@s">
+                    <img class="cs-img1" src="imgs/img2.png" alt="">
+                </div>
+                <div class="uk-width-expand@s">
+                    <h2 class="cs-title1 uk-text-center">tương ớt chinsu</h2>
+                    <div class="uk-padding-small">
+                        <p class="cs-desc1">Tương ớt Chinsu được sản xuất từ những trái ớt tươi ngon nhất, xay nhuyễn cũng với tỏi tươi và công thức lên men đặc biệt cho hương vị tuyệt hảo</p>
+                    </div>
+                    <div class="uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand">
+                            <ul class="uk-list cs-list2" uk-scrollspy="cls: uk-animation-slide-bottom; target: li; delay: 500; repeat: true">
+                                <li>Thơm nồng vị ớt và tỏi tươi ngon;</li>
+                                <li>Hít hà vị cay tuyệt hảo;</li>
+                                <li>Hoà quyện và bùng cay.</li>
+                            </ul>
+                        </div>
+                        <div class="uk-width-auto">
+                            <img uk-scrollspy="cls: uk-animation-slide-right; repeat: true" class="cs-img2" src="imgs/img4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="cs-block2" class="uk-section-small uk-text-center" data-src="imgs/bg2.png" uk-img>
         <div class="uk-container uk-container-small">
             <h2 class="cs-title1">các món ngon tương ớt chinsu</h2>

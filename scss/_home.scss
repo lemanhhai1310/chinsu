@@ -6,6 +6,20 @@
   max-width: 350px;
   width: 100%;
   margin-bottom: -60px !important;
+  #cs-block3 &{
+    position: relative;
+    bottom: -50px;
+  }
+}
+.cs-list2{
+  li{
+    font-size: 20px;
+    font-family:'Averta-ExtraBoldItalic';
+    color: #c42127;
+    &:nth-child(n+2){
+      margin-top: 40px;
+    }
+  }
 }
 .cs-list1{
   li{
@@ -32,7 +46,7 @@
 }
 .cs-desc1{
   font-family:'Averta-Regular';
-  font-size: 16px;
+  font-size: 20px;
   color: #060709;
   margin: 0;
 }
@@ -45,6 +59,9 @@
   }
   #cs-block2 &{
     color: #ffffff;
+  }
+  #cs-block3 &{
+    color: #c42127;
   }
 }
 $radius1: 50%;
