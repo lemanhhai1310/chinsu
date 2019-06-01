@@ -105,7 +105,7 @@
                                     <div class="cs-box2 uk-card uk-card-default uk-height-1-1">
                                         <div class="uk-cover-container">
                                             <img src="<?= $v1['src'] ?>" alt="" uk-cover>
-                                            <canvas width="561" height="495"></canvas>
+                                            <canvas width="841" height="742"></canvas>
                                         </div>
                                         <div class="uk-padding-small">
                                             <h3 class="title uk-text-uppercase"><a href="#"><?= $v1['title'] ?></a></h3>
