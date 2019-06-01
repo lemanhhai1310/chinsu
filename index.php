@@ -40,6 +40,9 @@
      theme_color="#24892d">
 </div>
 <section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden">
+    <div>
+
+    </div>
     <div id="cs-block3" class="uk-section-xsmall uk-position-relative" data-src="imgs/bg1.png" uk-img>
         <div class="uk-container">
             <div class="" uk-grid>
