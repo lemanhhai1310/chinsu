@@ -1,0 +1,40 @@
+$mh1: 50px;
+#cs-header{
+  .uk-logo{
+    position: relative;
+    width: 200px;
+    img{
+      width: 200px;
+    }
+  }
+  .uk-navbar-left{
+    .uk-navbar-item{
+      min-height: $mh1;
+    }
+    .uk-navbar-nav{
+      >li{
+        >a{
+          min-height: $mh1;
+          color: #a62d2a;
+          font-family:'Averta-Semibold';
+        }
+      }
+    }
+  }
+  .uk-navbar-right{
+    .uk-icon-button{
+      color: #a62d2a;
+      border-color: #a62d2a;
+      background-color: transparent;
+      border: 1px solid #a62d2a;
+    }
+  }
+}
+#cs-block6{
+  background-color: #a62d2a;
+  color: #FFFFFF;
+  padding: 17px 0;
+  h1{
+    color: #FFFFFF;
+  }
+}

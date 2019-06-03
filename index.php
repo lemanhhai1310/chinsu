@@ -40,19 +40,44 @@
      theme_color="#24892d">
 </div>
 <section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden">
-    <div id="cs-block5" class="uk-section-xsmall" data-src="imgs/bg1.png" uk-img>
+    <div id="cs-block6" class="uk-section-xsmall">
         <div class="uk-container">
-            <div uk-grid>
+            <h1 class="uk-text-uppercase uk-text-center">tương ớt chinsu</h1>
+        </div>
+    </div>
+    <div id="cs-block5" class="uk-section-xsmall uk-padding-remove-top" data-src="imgs/bg1.png" uk-img>
+        <div class="uk-container">
+            <nav id="cs-header" class="uk-navbar-container tm-navbar-container uk-margin uk-navbar-transparent" uk-navbar>
+                <div class="uk-navbar-left">
+
+                    <a class="uk-navbar-item uk-padding-remove-left uk-logo uk-position-bottom" href="#"><img src="imgs/logo_h.png" alt=""></a>
+                    <a class="uk-navbar-item uk-padding-remove-left uk-logo" href="#"></a>
+
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active"><a href="#">home</a></li>
+                        <li><a href="#">tin tức</a></li>
+                        <li><a href="#">đại lý</a></li>
+                        <li><a href="#">món ngon</a></li>
+                    </ul>
+
+                </div>
+                <div class="uk-navbar-right">
+                    <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                    <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+                    <a href="" class="uk-icon-button" uk-icon="google-plus"></a>
+                </div>
+            </nav>
+            <div class="uk-flex-middle uk-grid-small" uk-grid>
                 <div class="uk-width-3-5@m">
-                    <iframe src="https://www.youtube.com/embed/bBbqIQIEhxg?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" width="1920" height="1080" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+                    <iframe src="https://www.youtube.com/embed/bBbqIQIEhxg?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" width="1920" height="1080" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true; autoplay: true;"></iframe>
                 </div>
                 <div class="uk-width-2-5@m">
                     <img src="imgs/tuong1.png" alt="">
                 </div>
             </div>
-            <div uk-grid>
+            <div class="uk-flex-middle uk-grid-small" uk-grid>
                 <div class="uk-width-3-5@m">
-                    <iframe src="https://www.youtube.com/embed/iQPFY-Uch_o?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" width="1920" height="1080" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+                    <iframe src="https://www.youtube.com/embed/iQPFY-Uch_o?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" width="1920" height="1080" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true; autoplay: true;"></iframe>
                 </div>
                 <div class="uk-width-2-5@m uk-flex-first@m">
                     <img src="imgs/tuong2.png" alt="">
