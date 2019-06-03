@@ -40,6 +40,26 @@
      theme_color="#24892d">
 </div>
 <section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden">
+    <div id="cs-block5" class="uk-section-xsmall" data-src="imgs/bg1.png" uk-img>
+        <div class="uk-container">
+            <div uk-grid>
+                <div class="uk-width-3-5@m">
+                    <iframe src="https://www.youtube.com/embed/bBbqIQIEhxg?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" width="1920" height="1080" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+                </div>
+                <div class="uk-width-2-5@m">
+                    <img src="imgs/tuong1.png" alt="">
+                </div>
+            </div>
+            <div uk-grid>
+                <div class="uk-width-3-5@m">
+                    <iframe src="https://www.youtube.com/embed/iQPFY-Uch_o?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" width="1920" height="1080" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+                </div>
+                <div class="uk-width-2-5@m uk-flex-first@m">
+                    <img src="imgs/tuong2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="cs-block4" class="uk-background-cover" data-src="imgs/bg3.png" uk-img>
         <div class="uk-container">
             <div class="uk-flex-middle" uk-grid>
