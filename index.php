@@ -40,8 +40,17 @@
      theme_color="#24892d">
 </div>
 <section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden">
-    <div>
-
+    <div id="cs-block4" class="uk-background-cover" data-src="imgs/bg3.png" uk-img>
+        <div class="uk-container">
+            <div class="uk-flex-middle" uk-grid>
+                <div class="uk-width-expand@s">
+                    <h2 class="cs-title1">vạn món ngon bùng vị</h2>
+                </div>
+                <div class="uk-width-auto@s">
+                    <img class="cs-img3" src="imgs/img5.png" alt="">
+                </div>
+            </div>
+        </div>
     </div>
     <div id="cs-block3" class="uk-section-xsmall uk-position-relative" data-src="imgs/bg1.png" uk-img>
         <div class="uk-container">

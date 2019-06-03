@@ -46,6 +46,12 @@
     }
   }
 }
+.cs-img3{
+  width: 350px;
+  position: relative;
+  bottom: -40px;
+  z-index: 10;
+}
 .cs-desc1{
   font-family:'Averta-Regular';
   font-size: 20px;
@@ -64,6 +70,9 @@
   }
   #cs-block3 &{
     color: #c42127;
+  }
+  #cs-block4 &{
+    color: #ffffff;
   }
 }
 $radius1: 50%;
