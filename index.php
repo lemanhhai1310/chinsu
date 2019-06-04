@@ -50,10 +50,10 @@
             <nav id="cs-header" class="uk-navbar-container tm-navbar-container uk-margin uk-navbar-transparent" uk-navbar>
                 <div class="uk-navbar-left">
 
-                    <a class="uk-navbar-item uk-padding-remove-left uk-logo uk-position-bottom" href="#"><img src="imgs/logo_h.png" alt=""></a>
-                    <a class="uk-navbar-item uk-padding-remove-left uk-logo" href="#"></a>
+                    <a class="uk-navbar-item uk-padding-remove-left uk-logo uk-position-bottom" href="."><img src="imgs/logo_h.png" alt=""></a>
+                    <a class="uk-navbar-item uk-padding-remove-left uk-logo" href="."></a>
 
-                    <ul class="uk-navbar-nav">
+                    <ul class="uk-navbar-nav uk-visible@m">
                         <li class="uk-active"><a href="#">home</a></li>
                         <li><a href="#">tin tức</a></li>
                         <li><a href="#">đại lý</a></li>
@@ -85,14 +85,14 @@
             </div>
         </div>
     </div>
-    <div id="cs-block4" class="uk-background-cover" data-src="imgs/bg3.png" uk-img>
+    <div id="cs-block4" class="uk-background-cover uk-height-medium" data-src="imgs/bg3.png" uk-img>
         <div class="uk-container">
             <div class="uk-flex-middle" uk-grid>
                 <div class="uk-width-expand@s">
                     <h2 class="cs-title1">vạn món ngon bùng vị</h2>
                 </div>
                 <div class="uk-width-auto@s">
-                    <img class="cs-img3" src="imgs/img5.png" alt="">
+                    <img class="cs-img3 uk-visible@m" src="imgs/img5.png" alt="">
                 </div>
             </div>
         </div>
@@ -105,7 +105,7 @@
                 </div>
                 <div class="uk-width-expand@s">
                     <h2 class="cs-title1 uk-text-center">tương ớt chinsu</h2>
-                    <div class="uk-padding-small">
+                    <div class="uk-padding-small uk-padding-remove-left uk-padding-remove-right">
                         <p class="cs-desc1">Tương ớt Chinsu được sản xuất từ những trái ớt tươi ngon nhất, xay nhuyễn cũng với tỏi tươi và công thức lên men đặc biệt cho hương vị tuyệt hảo</p>
                     </div>
                     <div class="uk-flex-middle" uk-grid>
@@ -158,8 +158,8 @@
                                 ),
                             );
                             foreach ($data as $k1 => $v1) { ?>
-                                <li>
-                                    <div class="cs-box2 uk-card uk-card-default uk-height-1-1">
+                                <li style="padding-top: 20px; padding-bottom: 20px;">
+                                    <div class="cs-box2 uk-card uk-card-default">
                                         <div class="uk-cover-container">
                                             <img src="<?= $v1['src'] ?>" alt="" uk-cover>
                                             <canvas width="841" height="742"></canvas>
@@ -192,20 +192,18 @@
     </div>
     <div id="cs-block1" class="uk-section-xsmall uk-position-relative" data-src="imgs/bg1.png" uk-img>
         <div class="uk-container">
-            <div class="uk-flex-bottom" uk-grid>
+            <div class="uk-flex-middle" uk-grid>
                 <div class="uk-width-expand@s">
-                    <h2 class="cs-title1">tương ớt chinsu siêu cay</h2>
-                    <div class="uk-padding-small">
-                        <p class="cs-desc1">Tương ớt Chinsu siêu cay mới được xay nhuyễn từ những trái ớt đỏ chín cây và ủ lên men tự nhiên cùng với tỏi thơm</p>
-                    </div>
+                    <h2 class="cs-title1 uk-margin-bottom">tương ớt chinsu siêu cay</h2>
+                    <p class="cs-desc1">Tương ớt Chinsu siêu cay mới được xay nhuyễn từ những trái ớt đỏ chín cây và ủ lên men tự nhiên cùng với tỏi thơm</p>
                     <div class="uk-flex-middle" uk-grid>
                         <div class="uk-width-auto">
                             <img uk-scrollspy="cls: uk-animation-slide-left; repeat: true" class="cs-img2" src="imgs/img1.png" alt="">
                         </div>
                         <div class="uk-width-expand">
                             <ul class="uk-list cs-list1" uk-scrollspy="cls: uk-animation-slide-right; target: li; delay: 500; repeat: true">
-                                <li>Dậy vị thanh chua của ớt tỏi <br> lên men;</li>
-                                <li>Bùng vị cay hít hà kích thích <br> <span>vị giác;</span></li>
+                                <li>Dậy vị thanh chua của ớt tỏi lên men;</li>
+                                <li>Bùng vị cay hít hà kích thích vị giác;</li>
                                 <li>Lan toả, hoà quyện.</li>
                             </ul>
                         </div>

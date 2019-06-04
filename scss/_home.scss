@@ -1,15 +1,29 @@
 .cs-img1{
-  max-width: 420px;
+  max-width: 370px;
   width: 100%;
 }
 .cs-img2{
-  max-width: 350px;
+  max-width: 400px;
   width: 100%;
-  margin-bottom: -60px !important;
   #cs-block3 &{
     position: relative;
-    bottom: -80px;
-    max-width: 300px;
+    bottom: -23px;
+    right: -100px;
+    max-width: 400px;
+    margin-bottom: -60px;
+    @media(max-width: 560px){
+      bottom: inherit;
+      right: inherit;
+    }
+  }
+  #cs-block1 &{
+    position: relative;
+    left: -50px;
+    bottom: -65px;
+    @media(max-width: 560px){
+      bottom: inherit;
+      left: inherit;
+    }
   }
 }
 .cs-list2{
@@ -29,13 +43,19 @@
     color: #f16321;
     font-size: 20px;
     &:nth-child(n+2){
-      margin-top: 50px;
+      margin-top: 20px;
     }
     &:nth-child(1){
       margin-left: -190px;
+      @media(max-width: 560px){
+        margin-left: 0;
+      }
     }
     &:nth-child(2){
       margin-left: -100px;
+      @media(max-width: 560px){
+        margin-left: 0;
+      }
       span{
         padding-left: 20px;
         display: block;
@@ -43,13 +63,16 @@
     }
     &:nth-child(3){
       margin-left: -50px;
+      @media(max-width: 560px){
+        margin-left: 0;
+      }
     }
   }
 }
 .cs-img3{
   width: 350px;
   position: relative;
-  bottom: -40px;
+  bottom: -20px;
   z-index: 10;
 }
 .cs-desc1{
@@ -67,20 +90,34 @@
   }
   #cs-block2 &{
     color: #ffffff;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.21);
   }
   #cs-block3 &{
     color: #c42127;
   }
   #cs-block4 &{
     color: #ffffff;
+    font-size: 38px;
+    @media(max-width: 560px){
+      font-size: 32px;
+    }
+  }
+}
+#cs-block4{
+  height: 280px !important;
+  @media(max-width: 560px){
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 $radius1: 50%;
 .cs-box2{
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.42);
   .uk-cover-container{
     img{
-      width: 295px !important;
-      height: 190px !important;
+      //width: 295px !important;
+      //height: 190px !important;
       border-radius: 0 0 $radius1 $radius1;
     }
   }
